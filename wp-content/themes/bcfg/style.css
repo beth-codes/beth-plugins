@@ -1,0 +1,128 @@
+/*
+Theme Name: BCFG
+Theme URI: ''
+Author: name
+Author URI: https://wordpress.org
+Description: BCFG plugin design theme (HTML, CSS, SASS and PHP.
+Version: 1.0
+Text Domain: twentytwentythree
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 51, 51, 0.7882352941);
+}
+
+body {
+  background: #f0f0f1;
+}
+body #front-page {
+  height: 100vh;
+}
+body .header {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  padding: 30px 0;
+}
+body .header .logo {
+  font-size: 40px;
+}
+body .header .menu-class ul {
+  display: flex;
+  gap: 2rem;
+}
+body .header .menu-class ul li {
+  list-style: none;
+}
+body .body-container {
+  display: flex;
+  justify-content: center;
+}
+body .body-container .bcfg {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5rem;
+  color: rgba(51, 51, 51, 0.9294117647);
+  align-self: center;
+  text-align: center;
+  line-height: 1.4;
+}
+body .post-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+body .post-container article {
+  width: 33%;
+  margin: 1.5rem 0;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+body .post-container .container {
+  width: 70vw;
+  justify-content: center;
+  margin: auto;
+}
+body .post-container .container div, body .post-container .container p {
+  color: #BABECC;
+  text-shadow: 1px 1px 1px #FFF;
+}
+body .post-container .container form {
+  padding: 16px;
+  width: 60%;
+  margin: 0 auto;
+}
+body .post-container .container .segment {
+  padding: 32px 0;
+  text-align: center;
+}
+body .post-container .container button, body .post-container .container input, body .post-container .container textarea {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+}
+body .post-container .container label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+body .post-container .container input, body .post-container .container textarea, body .post-container .container button {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+body .post-container .container input:focus, body .post-container .container textarea:focus, body .post-container .container button:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+body .post-container .container button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+body .post-container .container button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+body .post-container .container button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+body .post-container .container button.unit {
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */
